@@ -6,8 +6,8 @@ import {
 	useRouterState,
 } from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
+import { Toaster } from "@ws-menu/ui/sonner";
 import Loader from "@/components/loader";
-import { Toaster } from "@/components/ui/sonner";
 import Header from "../components/header";
 import appCss from "../index.css?url";
 

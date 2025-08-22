@@ -1,0 +1,11 @@
+{
+	"name": "@ws-menu/tsconfig",
+	"description": "Typescript config for workspace-menu",
+	"private": true,
+	"devDependencies": {
+		"typescript": "^5.7.2"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}

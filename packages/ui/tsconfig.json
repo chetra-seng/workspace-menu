@@ -1,0 +1,11 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"extends": "@ws-menu/tsconfig/react-library.json",
+	"compilerOptions": {
+		"paths": {
+			"@ws-menu/ui/*": ["./src/*"]
+		}
+	},
+	"include": ["src"],
+	"exclude": ["node_modules"]
+}
