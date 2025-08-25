@@ -1,0 +1,15 @@
+{
+	"name": "@ws-menu/db",
+	"private": true,
+	"description": "Database for workspace-menu",
+	"dependencies": {
+		"dotenv": "^17.2.1",
+		"drizzle-orm": "^0.44.4",
+		"postgres": "^3.4.7"
+	},
+	"devDependencies": {
+		"@types/node": "^24.3.0",
+		"drizzle-kit": "^0.31.4",
+		"tsx": "^4.20.5"
+	}
+}
