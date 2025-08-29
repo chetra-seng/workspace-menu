@@ -13,6 +13,6 @@ jobs:
         with:
           message: Thanks for taking this issue! Let us know if you have any questions!
           trigger: .take
-          token: ${{secrets.GH_TOKEN}}
+          token: ${{secrets.GITHUB_TOKEN}}
           blockingLabels: in progress
           blockingLabelsMessage: This issue is already in progress
